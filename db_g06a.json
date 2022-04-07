@@ -1,0 +1,83 @@
+{
+	"servico": [
+		{ "id": 1, "nome": "cadastro usuario/senha/direitos",  "custo":  70.00, "fila": "A", "nivel_servico": 1, "obs": "molezinha"  },
+		{ "id": 2, "nome": "alteracao direitos",               "custo":  50.00, "fila": "A", "nivel_servico": 1, "obs": "molezinha"  },
+		{ "id": 3, "nome": "bug sitema informação",            "custo": 150.00, "fila": "B", "nivel_servico": 2, "obs": "molezinha"  },
+		{ "id": 4, "nome": "nova funcionalidade p/sist. inf.", "custo": 500.00, "fila": "C", "nivel_servico": 3, "obs": "molezinha"  },
+		{ "id": 5, "nome": "instalar máquina nova",            "custo": 100.00, "fila": "D", "nivel_servico": 4, "obs": "molezinha"  },
+		{ "id": 6, "nome": "máquina com defeito hw",           "custo": 200.00, "fila": "D", "nivel_servico": 5, "obs": "molezinha"  },
+		{ "id": 7, "nome": "reinstalar s.o. ruim",             "custo":  50.00, "fila": "D", "nivel_servico": 6, "obs": "molezinha"  },
+		{ "id": 8, "nome": "instalar software",                "custo":  50.00, "fila": "D", "nivel_servico": 7, "obs": "molezinha"  }
+	],
+	"tecnico": [
+		{ "id":  1, "funcionario": 12, "nome": "Marina",      "estado": "ferias" },	
+		{ "id":  2, "funcionario": 13, "nome": "Pedro",       "estado": "indisponivel" },
+		{ "id":  3, "funcionario": 14, "nome": "Lucas",       "estado": "disponivel" }, 
+		{ "id":  4, "funcionario": 15, "nome": "Mateus" ,     "estado": "alocado" },    
+		{ "id":  5, "funcionario": 16, "nome": "Reginaldo",   "estado": "indisponivel" },
+		{ "id":  6, "funcionario": 17, "nome": "Hélio",       "estado": "indisponivel" },
+		{ "id":  7, "funcionario": 11, "nome": "Fernando",    "estado": "atendendo" },  
+		{ "id":  8, "funcionario": 18, "nome": "Carla",       "estado": "indisponivel" },
+		{ "id":  9, "funcionario": 19, "nome": "Marcia",      "estado": "indisponivel" },
+		{ "id": 10, "funcionario": 20, "nome": "Cristina",    "estado": "indisponivel" },
+		{ "id": 11, "funcionario": 21, "nome": "Henrique",    "estado": "disponivel" }  
+	],                                                                                      
+	"tecnicos_servicos": [
+		{ "id":  1, "tecnico":  1, "servico": 1 },
+		{ "id":  2, "tecnico":  2, "servico": 1 },
+		{ "id":  3, "tecnico":  3, "servico": 2 },
+		{ "id":  4, "tecnico":  3, "servico": 7 },
+		{ "id":  5, "tecnico":  4, "servico": 3 },
+		{ "id":  6, "tecnico":  5, "servico": 3 },
+		{ "id":  7, "tecnico":  6, "servico": 4 },
+		{ "id":  8, "tecnico":  7, "servico": 2 },
+		{ "id":  9, "tecnico":  7, "servico": 4 },
+		{ "id": 10, "tecnico":  8, "servico": 5 },
+		{ "id": 11, "tecnico":  9, "servico": 5 },
+		{ "id": 12, "tecnico": 10, "servico": 7 },
+		{ "id": 13, "tecnico": 11, "servico": 7 }
+	], 
+	"solicitacao": [
+		{ "id":  1, "cliente": "Zé das Coves", "dthr_solicitado": "2022/04/01 07:00:00", "servico": 3, "fila": 0, "rank": 0, "obs": "bla, não funcionando",  "estado": "avaliado" },
+		{ "id":  2, "cliente": "Zé das Coves", "dthr_solicitado": "2022/04/01 07:00:00", "servico": 3, "fila": 0, "rank": 0, "obs": "bla, não funcionando",  "estado": "avaliado" },
+		{ "id":  3, "cliente": "Zé das Coves", "dthr_solicitado": "2022/04/01 07:00:00", "servico": 3, "fila": 0, "rank": 0, "obs": "bla, não funcionando",  "estado": "avaliado" },
+		{ "id":  4, "cliente": "Zé das Coves", "dthr_solicitado": "2022/04/01 07:00:00", "servico": 3, "fila": 0, "rank": 0, "obs": "bla, não funcionando",  "estado": "avaliado" },
+		{ "id":  5, "cliente": "Zé das Coves", "dthr_solicitado": "2022/04/01 07:00:00", "servico": 3, "fila": 0, "rank": 0, "obs": "bla, não funcionando",  "estado": "avaliado" },
+		{ "id":  6, "cliente": "Zé das Coves", "dthr_solicitado": "2022/04/01 07:00:00", "servico": 3, "fila": 0, "rank": 0, "obs": "bla, não funcionando",  "estado": "avaliado" },
+		{ "id":  7, "cliente": "Zé das Coves", "dthr_solicitado": "2022/04/01 07:00:00", "servico": 3, "fila": 0, "rank": 0, "obs": "bla, não funcionando",  "estado": "avaliado" },
+		{ "id":  8, "cliente": "Zé das Coves", "dthr_solicitado": "2022/04/01 07:00:00", "servico": 3, "fila": 0, "rank": 0, "obs": "bla, não funcionando",  "estado": "avaliado" },
+		{ "id":  9, "cliente": "Zé das Coves", "dthr_solicitado": "2022/04/01 07:00:00", "servico": 3, "fila": 0, "rank": 0, "obs": "bla, não funcionando",  "estado": "avaliado" },
+		{ "id": 10, "cliente": "Zé das Coves", "dthr_solicitado": "2022/04/01 07:00:00", "servico": 3, "fila": 0, "rank": 0, "obs": "bla, não funcionando",  "estado": "avaliado" },
+		{ "id": 11, "cliente": "Zé das Coves", "dthr_solicitado": "2022/04/01 07:00:00", "servico": 1, "fila": 0, "rank": 0, "obs": "sou novo",              "estado": "terminado" },
+		{ "id": 12, "cliente": "Zé das Coves", "dthr_solicitado": "2022/04/01 07:00:00", "servico": 2, "fila": 0, "rank": 0, "obs": "sou chato",             "estado": "aguardando" },
+		{ "id": 13, "cliente": "Zé das Coves", "dthr_solicitado": "2022/04/01 07:00:00", "servico": 3, "fila": 0, "rank": 0, "obs": "bla, não funcionando",  "estado": "avaliado" },
+		{ "id": 14, "cliente": "Zé das Coves", "dthr_solicitado": "2022/04/01 07:00:00", "servico": 7, "fila": 0, "rank": 0, "obs": "SO ruim, não funciona", "estado": "aguardando" },
+		{ "id": 15, "cliente": "Zé das Coves", "dthr_solicitado": "2022/04/01 07:00:00", "servico": 7, "fila": 0, "rank": 0, "obs": "tela azul",             "estado": "cancelado" },
+		{ "id": 16, "cliente": "Zé das Coves", "dthr_solicitado": "2022/04/01 07:00:00", "servico": 4, "fila": 3, "rank": 1, "obs": "quero uma tela nova",   "estado": "priorizado" },
+		{ "id": 17, "cliente": "Zé das Coves", "dthr_solicitado": "2022/04/01 07:00:00", "servico": 5, "fila": 4, "rank": 1, "obs": "máquina lenta",         "estado": "retrabalho" },
+		{ "id": 18, "cliente": "Zé das Coves", "dthr_solicitado": "2022/04/01 07:00:00", "servico": 6, "fila": 0, "rank": 0, "obs": "máquina ruim",          "estado": "iniciado" },
+		{ "id": 19, "cliente": "Zé das Coves", "dthr_solicitado": "2022/04/01 07:00:00", "servico": 8, "fila": 0, "rank": 0, "obs": "só serve excel",        "estado": "avaliado" }
+	],
+	"atendimentos": [
+		{ "id":  1, "solicitacao":  1, "dthr_inicio": "2022/04/01 12:30:00", "tecnico": 11,  "dthr_termino": "2022/04/01 12:31:00", "nota":  5, "obs_tecnico": "molezinha", "obs_cliente": "lento"  },
+		{ "id":  2, "solicitacao":  2, "dthr_inicio": "2022/04/01 12:30:00", "tecnico": 7,   "dthr_termino": "2022/04/01 12:31:00", "nota":  3, "obs_tecnico": "molezinha", "obs_cliente": "lento"  },
+		{ "id":  3, "solicitacao":  3, "dthr_inicio": "2022/04/01 12:30:00", "tecnico": 7,   "dthr_termino": "2022/04/01 12:31:00", "nota":  9, "obs_tecnico": "molezinha", "obs_cliente": "lento"  },
+		{ "id":  4, "solicitacao":  4, "dthr_inicio": "2022/04/01 12:30:00", "tecnico": 11,  "dthr_termino": "2022/04/01 12:31:00", "nota": 10, "obs_tecnico": "molezinha", "obs_cliente": "ok"     },
+		{ "id":  5, "solicitacao":  5, "dthr_inicio": "2022/04/01 12:30:00", "tecnico": 7,   "dthr_termino": "2022/04/01 12:31:00", "nota":  7, "obs_tecnico": "molezinha", "obs_cliente": "lento"  },
+		{ "id":  6, "solicitacao":  6, "dthr_inicio": "2022/04/01 12:30:00", "tecnico": 7,   "dthr_termino": "2022/04/01 12:31:00", "nota":  7, "obs_tecnico": "molezinha", "obs_cliente": "lento"  },
+		{ "id":  7, "solicitacao":  7, "dthr_inicio": "2022/04/01 12:30:00", "tecnico": 7,   "dthr_termino": "2022/04/01 12:31:00", "nota":  8, "obs_tecnico": "molezinha", "obs_cliente": "lento"  },
+		{ "id":  8, "solicitacao":  8, "dthr_inicio": "2022/04/01 12:30:00", "tecnico": 11,  "dthr_termino": "2022/04/01 12:31:00", "nota":  7, "obs_tecnico": "molezinha", "obs_cliente": "lento"  },
+		{ "id":  9, "solicitacao":  9, "dthr_inicio": "2022/04/01 12:30:00", "tecnico": 7,   "dthr_termino": "2022/04/01 12:31:00", "nota":  9, "obs_tecnico": "molezinha", "obs_cliente": "lento"  },
+		{ "id": 10, "solicitacao": 10, "dthr_inicio": "2022/04/01 12:30:00", "tecnico": 7,   "dthr_termino": "2022/04/01 12:31:00", "nota":  8, "obs_tecnico": "molezinha", "obs_cliente": "lento"  },
+		{ "id": 11, "solicitacao": 11, "dthr_inicio": "2022/04/01 12:30:00", "tecnico": 7,   "dthr_termino": "2022/04/01 12:31:00", "nota":  8, "obs_tecnico": "molezinha", "obs_cliente": ""  },
+		{ "id": 12, "solicitacao": 13, "dthr_inicio": "2022/04/01 12:30:00", "tecnico": 7,   "dthr_termino": "2022/04/01 12:31:00", "nota":  6, "obs_tecnico": "molezinha", "obs_cliente": "lento"  },
+		{ "id": 13, "solicitacao": 17, "dthr_inicio": "2022/04/01 12:30:00", "tecnico": 7,   "dthr_termino": "2022/04/01 12:31:00", "nota":  2, "obs_tecnico": "terrivel",  "obs_cliente": "refazer" },
+		{ "id": 14, "solicitacao": 18, "dthr_inicio": "2022/04/01 12:30:00", "tecnico": 11,  "dthr_termino": "", "nota":  0, "obs_tecnico": "", "obs_cliente": ""  },
+		{ "id": 15, "solicitacao": 15, "dthr_inicio": "2022/04/01 12:30:00", "tecnico": 11,  "dthr_termino": "2022/04/01 12:31:00", "nota": 10, "obs_tecnico": "molezinha", "obs_cliente": "ok"  }
+	],
+	"profile": {
+	    "name": "typicode"
+	}
+}
+
+
