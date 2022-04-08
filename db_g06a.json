@@ -74,10 +74,7 @@
 		{ "id": 13, "solicitacao": 17, "dthr_inicio": "2022/04/01 12:30:00", "tecnico": 7,   "dthr_termino": "2022/04/01 12:31:00", "nota":  2, "obs_tecnico": "terrivel",  "obs_cliente": "refazer" },
 		{ "id": 14, "solicitacao": 18, "dthr_inicio": "2022/04/01 12:30:00", "tecnico": 11,  "dthr_termino": "", "nota":  0, "obs_tecnico": "", "obs_cliente": ""  },
 		{ "id": 15, "solicitacao": 15, "dthr_inicio": "2022/04/01 12:30:00", "tecnico": 11,  "dthr_termino": "2022/04/01 12:31:00", "nota": 10, "obs_tecnico": "molezinha", "obs_cliente": "ok"  }
-	],
-	"profile": {
-	    "name": "typicode"
-	}
+	]
 }
 
 
